@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Frozen ❄️</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Google Fonts (Frozen vibe: Poppins + Dancing Script) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      font-size: 1.2rem; /* fonte maior */
+      background: linear-gradient(to bottom, #e0f7fa, #bbdefb);
+      color: #1a237e;
+    }
+
+    header {
+      background: linear-gradient(to right, #4fc3f7, #81d4fa);
+      border-bottom: 5px solid #1e88e5;
+    }
+
+    .nav-link {
+      color: white !important;
+      font-weight: 600;
+      font-size: 1.3rem;
+    }
+
+    .btn-primary {
+      background-color: #3949ab;
+      border: none;
+      font-size: 1.3rem;
+      padding: 0.8rem 1.5rem;
+      border-radius: 2rem;
+    }
+
+    h1, h2 {
+      font-family: "Dancing Script", cursive;
+      color: #0d47a1;
+    }
+
+    .inicio-fundo {
+      background: url("https://upload.wikimedia.org/wikipedia/pt/e/e5/Frozen_2013.png") no-repeat center/cover;
+      padding: 4rem;
+      border-radius: 2rem;
+      color: white;
+      text-shadow: 2px 2px 6px #000;
+    }
+
+    .fundo-galeria {
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 1.5rem;
+      padding: 2rem;
+    }
+
+    .formulario {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 2rem;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+
+    footer {
+      background: #3949ab;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="p-4">
+    <nav class="container d-flex justify-content-between align-items-center">
+      <img src="https://lumiere-a.akamaihd.net/v1/images/pp_frozen_herobanner_20501_185ef872.jpeg?region=244,0,1560,878" alt="Logo Frozen" class="nav-img" width="150">
+      <ul class="nav mt-3">
+        <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+        <li class="nav-item"><a class="nav-link" href="#historia">História</a></li>
+        <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container my-5">
+
+    <!-- Início -->
+    <section id="inicio" class="my-5">
+      <div class="inicio-fundo d-flex flex-column align-items-center text-center">
+        <h1 class="display-3 fw-bold">Bem-vindo ao Reino de Arendelle ❄️</h1>
+        <p class="lead">Descubra o mundo mágico de Frozen, com Elsa, Anna, Olaf e muitos outros personagens.</p>
+        <a href="#historia" class="btn btn-primary mt-3">Conhecer mais</a>
+      </div>
+    </section>
+
+    <!-- História -->
+    <section id="historia" class="my-5 pt-6" tabindex="0" aria-label="História do Frozen">
+      <div class="container d-flex align-items-center flex-wrap gap-4">
+        <div class="col-md-4 text-center">
+          <img src="https://recreio.com.br/wp-content/uploads/disney/frozen_2_abraco_capa.jpg" alt="Elsa" class="rounded-circle img-fluid" width="250">
+        </div>
+        <div class="col-md-7">
+          <h2>A História de Frozen</h2>
+          <p>Frozen conta a história de duas irmãs, Elsa e Anna, que vivem no reino de Arendelle. Elsa nasceu com
+            poderes mágicos de gelo e precisa aprender a controlá-los para proteger sua família e seu povo. O filme fala
+            sobre amor, coragem e a força do vínculo entre irmãs.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria" tabindex="0" aria-label="Galeria de Frozen">
+      <h2 class="text-center pt-5">Galeria</h2>
+      <div class="container p-3 mt-3 fundo-galeria">
+        <div class="row justify-content-md-center">
+          <div class="col-md-4">
+            <img src="https://rollingstone.com.br/media/_versions/frozen-2-reprod-disney-cortada_widelg.jpg" class="img-fluid rounded-5" alt="Anna de Frozen">
+          </div>
+          <div class="col-md-4">
+            <img src="https://disneyplusbrasil.com.br/wp-content/uploads/2023/11/Elsa-Frozen.jpg" class="img-fluid rounded-5" alt="Olaf sorrindo">
+          </div>
+        </div>
+        <div class="row mt-4 justify-content-md-center">
+          <div class="col-md-4">
+            <img src="https://portalpopline.com.br/wp-content/uploads/2024/08/frozen.webp" class="img-fluid rounded-5" alt="Kristoff com Sven">
+          </div>
+          <div class="col-md-4">
+            <img src="https://s2-g1.glbimg.com/iNSTDNCRHvmvIpi9cs-bgmD8wZo=/0x0:1920x1080/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/0/p/q4m3XmSkAYsC23BZs0FA/novos-personagens2.jpg" class="img-fluid rounded-5" alt="Elsa usando seus poderes de gelo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato">
+      <div class="container p-5 d-flex justify-content-center">
+        <div class="col-md-8 col-lg-10 rounded-5 formulario">
+          <h2 class="mb-3">Entre em contato com Arendelle</h2>
+          <form>
+            <div class="form-group mb-3">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                placeholder="Digite seu nome completo" required>
+            </div>
+            <div class="form-group mb-3">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
+                placeholder="Digite seu email" required>
+            </div>
+            <div class="form-group mb-3">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4"
+                placeholder="Escreva sua mensagem para Anna ou Elsa" required></textarea>
+            </div>
+            <div class="d-grid gap-2">
+              <button type="submit" class="btn btn-primary btn-lg rounded-pill">Enviar mensagem</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="text-center p-3 fst-italic">
+    <p>Siga Frozen nas redes:</p>
+    <i class="bi bi-instagram"></i>
+    <i class="bi bi-tiktok"></i>
+    <p class="mt-3">Projeto fictício inspirado em Frozen. ❄️</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
+</body>
+
+</html>
